@@ -1,6 +1,6 @@
 # These substitutions allow the end user to override certain values
 substitutions:
-  name: "project-template"
+  name: "Reminder Light-"
 
 esphome:
   name: "${name}"
@@ -11,13 +11,14 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: esphome.project-template
-    version: "1.0"
+    name: esphome.reminder-light
+    version: "0.01.0-b1"
 
 esp32:
-  board: esp32dev
+  board: wemos_d1_mini32
   framework:
-    type: arduino
+    type: esp-idf
+    version: recommended
 
 # To be able to get logs from the device via serial and api.
 logger:
