@@ -1,4 +1,4 @@
 # CHANGEME: Set these variable to your liking
-title: ESPHome Project Template
-description: Powered by ESPHome and ESP Web Tools
+title: ESPHome Reminder Light
+description: RGB Light provides a visible reminder on a schedule for things like taking medication, appointments, or anything else of which you want to be reminded.  Powered by ESPHome and ESP Web Tools 
 theme: jekyll-theme-slate
